@@ -1,0 +1,246 @@
+/*ESTILOS GENERALES*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/*ESTILOS BARRA DE NAVEGACION*/
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003400;
+    
+}
+
+/*ESTILOS NAV-1*/
+.nav-1{
+    display: flex;
+    width: 50%;
+    height: 30px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav-1 > a:nth-child(1){
+    margin-left: 100px;
+}
+
+.nav-1 > a:last-child{
+    margin-left: 20px;
+    border-left: 1px solid #d0fdd7;
+    padding-left: 20px;
+}
+
+.nav-1 a{
+    text-decoration: none;
+    color: #d0fdd7;
+}
+
+
+/*ESTILOS NAV-2*/
+.nav-2{
+    display: flex;
+    width: 50%;
+    height: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-2 > button:nth-child(2){
+    margin-right: 100px;
+    margin-left: 40px;
+}
+
+.nav-2 .button-1{
+    width: 140px;
+    height: 40px;
+    padding: 5px;
+    background-color: #d0fdd7;
+    border: 1px solid #d0fdd7;
+    border-radius: 3px;
+    color: #003400;
+    font-size: 15px;
+}
+
+.nav-2 .button-1:hover{
+    background-color: #98ffa9;
+    transition: 400ms;
+    color: black;
+}
+
+.nav-2 .button-2{
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ebed17;
+    color: #003400;
+    font-size: 15px;
+}
+
+.nav-2 .button-2:hover{
+    background-color: #f7fa57;
+    transition: 400ms;
+    color: black;
+}
+
+/*ESTILOS DEL HEADER*/
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #d0fdd7;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    display: flex;
+    width: 600px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+.header input{
+    display: flex;
+    width: 630px;
+    height: 45px;
+    border: none;
+    padding-left: 15px;
+    box-shadow: 4px 4px rgb(102, 98, 100, 0.2);
+}
+
+.header label{
+    display: flex;
+    width: 70px;
+    height: 45px;
+    float: right;
+    border: none;
+    padding-left: 15px;
+    align-items: center;
+    background-color: #009929;
+    color: #d0fdd7;
+    box-shadow: 4px 4px rgb(102, 98, 100, 0.2);
+}
+
+.header label:hover{
+    background-color: #006b1d;
+    color: white;
+    transition: 400ms;
+}
+
+/*ESTILOS DEL SECTION*/
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+}
+
+/*ESTILOS DEL CONTENIDO DENTRO DE LA SECTION*/
+.article-1, .article-2{
+    display: flex;
+    width: 40%;
+    height: 300px;
+    align-items: center;
+}
+
+/*ESTILOS DE LOS ELEMENTOS h3, p Y a*/
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+}
+.content h3,
+.content p{
+    font-size: 20px;
+}
+.content a{
+    text-decoration: none;
+    color: #009929;
+    width: 100px;
+}
+.content a:hover{
+    color: #006b1d;
+    transition: 400ms;
+    font-weight: bold;
+}
+/*ESTILOS DEL CONTENIDO NUMERO 3 QUE HACE EL CONTENEDOR
+DONDE ESTA h3, p y a, MAS GRANDE*/
+.content-1{
+    height: 176px;
+}
+/*ESTILOS DEL CONTENIDO NUMERO 4 QUE ALINEA EL
+CONTENEDOR h3, p, a*/
+.content-2{
+    margin-bottom: 30px;
+}
+/*ESTILOS DEL CONTENIDO NUMERO 6 QUE ALINEA EL CONTENEDOR*/
+.content-3{
+    height: 100px;
+    margin-bottom: 55px;
+}
+/*ESTILOS DE ALINEACION DE LA IMAGEN DEL CONTENEDOR 6*/
+.article-1-1 img{
+    margin-bottom: 13px;
+}
+
+/*ESTILOS DEL FOOTER*/
+footer{
+    display: flex;
+    height: 400px;
+    background-color: #003400;
+    color: #d0fdd7;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.footer-1-1{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.footer-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.footer-1 h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-1 h5{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer-1 a{
+    color: #d0fdd7;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.footer-1 a:hover{
+    text-decoration: underline;
+}
+
+.footer-6{
+    display: flex;
+    align-items: flex-end;
+    width: 225px;
+    margin-bottom: 50px;
+    padding-left: 125px;
+    font-size: 20px;
+}
